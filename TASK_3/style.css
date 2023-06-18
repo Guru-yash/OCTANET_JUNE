@@ -1,0 +1,331 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    height:max-content;
+}
+
+                        /* top */
+
+
+.bar
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:56px;
+    position: relative;
+    justify-content: flex-start;
+    background-color:#fdd835;
+    color: aliceblue;
+}
+.img
+{
+    font-size: 24px;
+    padding: 20px;
+    color: #000;
+}
+.logo
+{
+    width: calc(100% - 190px);
+    color: #000;
+}
+.search , .like , .cart
+{
+    margin-left: 0.25rem;
+    padding-right: 6px;
+}
+
+                            /* mid-top*/
+
+ .mid-top
+ {
+    padding-top: 20px;
+ } 
+ .wrap
+ {
+    z-index: 3;
+    background-color: #fff;
+    width: 100%;
+    /* overflow-y: scroll; */
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+ } 
+ .mid-top  .wrap  ul
+ {
+    width: 100vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+.mid-top  .wrap  ul li
+{
+    display: inline-block;
+    width: 100%;
+    padding: 0 10px;
+    border-bottom: 4px solid transparent;
+    transition: all .3s ease-in 0s;
+}
+            
+ 
+ .cont
+ {
+    min-width: 63px;
+    margin-left: 10px;
+ }
+
+
+
+
+ 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  /* margin: auto; */
+  padding-top: 50px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+.widgetSliderWrapper {
+    position: relative;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+    display: flex;
+}
+
+.widgetSliderWrapper ul{
+    list-style:none;
+    display: flex;
+    padding-left: 10px;
+}
+
+.container
+{
+    padding-top: 50px;
+}
+
+.banner
+{
+    padding-top: 70px;
+    
+}
+.banner2
+{
+    padding-top: 50px;
+}
+.t1
+{
+    padding: 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    word-spacing: 0.5rem;
+    font-stretch:ultra-expanded;
+}
+
+
+*
+{
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    /* width:16.6%; */
+    padding:3px;
+    /* display: flex; */
+  }
+  .row
+  {
+    display: flex;
+  }
+
+  #pb
+  {
+    transform: translateY(34px);
+  }
+  
+
+.column2 {
+    float: left;
+    /* width:16.6%; */
+    padding-left:20px;
+    /* display: flex; */
+  }
+  .row2
+  {
+    display: flex;
+  }
+
+.lae
+{
+    padding-top: 20px;
+}
+  
+.t2
+{
+    padding-top: 20px;
+    
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    word-spacing: 0.5rem;
+    font-stretch:ultra-expanded;
+}
+  
+
+
+
+
+#conta
+{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #00B852CC;
+  font-size: 8px;
+  color: #fff;
+  padding: 4px 8px;
+  width: 75px;
+  transform: translateY(-185px);
+  
+}
+
+.tesup
+{
+  
+  display: flex;
+}
+.ltext
+{
+  padding-right: 22px;
+}
+.price
+{
+  display: flex;
+  
+}
+.pl , .pm , .pr
+{
+  padding: 2px;
+}
+.tes1
+{
+  display:block;
+  padding-top: 0px;
+}
+.conte{
+  display: flex;
+   padding: 12px;
+}
+.cont1
+{
+  padding: 30px;
+}
+.lend
+{
+  background-color: rgb(251, 238, 240);
+}
+
+
+
+
+
+                 /* footer */
+ .blacklayer
+ {
+  width: 100%;
+  height: 100px;
+  background-color: #000;
+ }
+.foot
+{
+  background-color: #000;
+  
+}
+.box , .box2
+{
+  display: flex;
+}
+.footle1
+{
+  padding-right: 270px;
+}
+.intro
+{
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+ 
